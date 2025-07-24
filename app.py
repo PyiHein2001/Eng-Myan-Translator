@@ -11,8 +11,8 @@ LANGUAGE_CODES = {
 }
 
 # Load models and tokenizers
-model_1_path = "./nllb-en-my-finetuned-v1"
-model_2_path = "./nllb-en-my-finetuned-v2"
+model_1_path = "Henry922001/en-myan-finetuned-5000"
+model_2_path = "Henry922001/en-myan-finetuned"
 
 tokenizer_1 = AutoTokenizer.from_pretrained(model_1_path)
 model_1 = AutoModelForSeq2SeqLM.from_pretrained(model_1_path)
